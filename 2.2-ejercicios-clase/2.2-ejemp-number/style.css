@@ -1,0 +1,6 @@
+.resultado {
+    border: dotted 3px green;
+    min-height: 2em;
+    text-align: center;
+
+}
