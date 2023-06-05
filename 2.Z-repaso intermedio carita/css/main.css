@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+
+.body {
+    background-color: #ffcc00;
+}
+
+.yellow {
+    background-color: #ffcc00;
+}
+
+.orange {
+    background-color: #ff9900;
+}
+
+.header {
+    padding: 10px 10px 10px;
+    text-align: center;
+    border-bottom: dotted 2px lightgray;
+}
+
+.subtitle {
+    color: lightcoral;
+    font-size: 16px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smile {
+    padding: 120px 0 150px;
+    font-size: 70px;
+}
+
+.select {
+    display: flex;
+    gap: 10px;
+}
+
+/* NO FUNCIONA .select_box {
+    border: 0;
+    background-color: transparent;
+} */
+
+.btn {
+    width: 120px;
+    border: 0;
+    padding: 3px;
+    border-radius: 50vh;
+    background-color: #0497F0;
+    color: white;
+}
